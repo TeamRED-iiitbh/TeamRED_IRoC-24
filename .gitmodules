@@ -1,0 +1,3 @@
+[submodule "electrical/kicad/gigaboard/lib/custom"]
+	path = electrical/kicad/gigaboard/lib/custom
+	url = https://github.com/Shrijal2410/kicad
