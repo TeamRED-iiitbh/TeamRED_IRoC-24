@@ -1799,6 +1799,193 @@
 				)
 			)
 		)
+		(symbol "Motor_Driver:MD10C_DC_Driver"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD10C_DC_Driver"
+				(at -1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10.16 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://robu.in/product/enhanced-13amp-dc-motor-driver-30a-peak-10-seconds/"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD10C_DC_Driver_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "PUL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_arduino-library:Arduino_Giga_R1_WiFi_Shield_1"
 			(pin_names
 				(offset 1.016)
@@ -4887,6 +5074,284 @@
 				)
 			)
 		)
+		(symbol "Sensors:BMX160_9axis"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMX160_9axis"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10.16 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://robu.in/product/dfrobot-fermion-bmx160-9-axis-sensor-breakout/"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMX160_9axis_0_0"
+				(circle
+					(center 0 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "X"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Y"
+					(at 2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "BMX160_9axis_0_1"
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy -0.508 -3.556)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy 0.508 -3.556)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -5.08) (xy 1.524 -5.588)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -5.08) (xy 1.524 -4.572)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy 0 -5.08) (xy 2.032 -5.08)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BMX160_9axis_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TMC2209_1"
 			(pin_names
 				(offset 1.016)
@@ -5327,6 +5792,12 @@
 		(uuid "04076389-496d-4a39-85e3-8c1f0b5894bf")
 	)
 	(junction
+		(at 137.16 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070c098c-a935-49cf-a76a-b2e1a90bedf3")
+	)
+	(junction
 		(at 177.8 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5623,6 +6094,16 @@
 			(type default)
 		)
 		(uuid "0121a02f-de75-4571-b7bb-33e0ff822129")
+	)
+	(wire
+		(pts
+			(xy 147.32 180.34) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01486cd5-15cb-46ba-a721-8d8313340ffe")
 	)
 	(wire
 		(pts
@@ -5956,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 186.69) (xy 170.18 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170b2ffa-581d-4198-8dc7-a6c517e599ab")
+	)
+	(wire
+		(pts
 			(xy 135.89 45.72) (xy 142.24 45.72)
 		)
 		(stroke
@@ -6083,6 +6574,16 @@
 			(type default)
 		)
 		(uuid "1ed2e40b-ab7f-431f-8bbe-732502695c95")
+	)
+	(wire
+		(pts
+			(xy 152.4 185.42) (xy 147.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa2d1a9-57a8-4e6a-bf4c-274eba672998")
 	)
 	(wire
 		(pts
@@ -7026,6 +7527,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 195.58) (xy 140.97 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d9bb4b-8351-4a7a-8808-a89502a2182d")
+	)
+	(wire
+		(pts
 			(xy 147.32 35.56) (xy 149.86 35.56)
 		)
 		(stroke
@@ -7286,6 +7797,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 190.5) (xy 147.32 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d39053-7ea8-4420-8392-e48f534729ac")
+	)
+	(wire
+		(pts
 			(xy 383.54 124.46) (xy 383.54 133.35)
 		)
 		(stroke
@@ -7446,6 +7967,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 187.96) (xy 147.32 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dee5f2f-d6f4-4b0f-bfc1-f9e131519d0a")
+	)
+	(wire
+		(pts
 			(xy 195.58 35.56) (xy 195.58 36.83)
 		)
 		(stroke
@@ -7536,6 +8067,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 187.96) (xy 147.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73dc7cb8-9451-4668-98b2-42059dfc3da4")
+	)
+	(wire
+		(pts
 			(xy 25.4 149.86) (xy 30.48 149.86)
 		)
 		(stroke
@@ -7543,6 +8084,16 @@
 			(type default)
 		)
 		(uuid "740152ba-86af-4236-a616-206ad111dccd")
+	)
+	(wire
+		(pts
+			(xy 147.32 160.02) (xy 152.4 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744a60f7-ba3a-4a1f-9da8-38f8cc83e939")
 	)
 	(wire
 		(pts
@@ -7866,6 +8417,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 193.04) (xy 152.4 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bef7d2-47e2-4715-87f4-dd78075a54bd")
+	)
+	(wire
+		(pts
 			(xy 30.48 57.15) (xy 27.94 57.15)
 		)
 		(stroke
@@ -7953,6 +8514,16 @@
 			(type default)
 		)
 		(uuid "8d06fa13-33e6-40c0-9b83-c29df9e6ad4b")
+	)
+	(wire
+		(pts
+			(xy 137.16 180.34) (xy 137.16 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0ae314-636d-4b34-a382-cca498dd9007")
 	)
 	(wire
 		(pts
@@ -8156,6 +8727,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 185.42) (xy 173.99 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966c6681-de4c-4ca7-939d-ce85c7790512")
+	)
+	(wire
+		(pts
 			(xy 237.49 30.48) (xy 237.49 31.75)
 		)
 		(stroke
@@ -8193,6 +8774,16 @@
 			(type default)
 		)
 		(uuid "9792b593-fa79-49e4-a96a-0d8a86159b02")
+	)
+	(wire
+		(pts
+			(xy 147.32 185.42) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985593dc-013c-4b8d-8c70-b7551d9a4741")
 	)
 	(wire
 		(pts
@@ -8403,6 +8994,16 @@
 			(type default)
 		)
 		(uuid "a45d7cd8-a9e2-42cb-a7b8-429a64c07680")
+	)
+	(wire
+		(pts
+			(xy 148.59 190.5) (xy 152.4 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e7e2d2-52d9-4230-a7b2-e656da1b6c23")
 	)
 	(wire
 		(pts
@@ -8713,6 +9314,16 @@
 			(type default)
 		)
 		(uuid "b68ad3e8-66d5-4fce-91b3-9578c806b5a0")
+	)
+	(wire
+		(pts
+			(xy 137.16 195.58) (xy 137.16 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7727401-9074-48c6-9d39-ca914035ff75")
 	)
 	(wire
 		(pts
@@ -9586,6 +10197,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 185.42) (xy 177.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99a78cf-ffb0-42ba-af83-2c89ac0c40c8")
+	)
+	(wire
+		(pts
 			(xy 281.94 80.01) (xy 279.4 80.01)
 		)
 		(stroke
@@ -9927,6 +10548,17 @@
 		)
 		(uuid "1ffca9a9-c68f-42a7-abf7-d7f6dc26ebc0")
 	)
+	(label "SDA2"
+		(at 147.32 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22babcee-8073-4553-adeb-03d38688a0ea")
+	)
 	(label "GND"
 		(at 25.4 180.34 0)
 		(fields_autoplaced yes)
@@ -10257,6 +10889,17 @@
 		)
 		(uuid "556f3864-3ed1-45a8-81d4-fb35bf870f15")
 	)
+	(label "SCL2"
+		(at 148.59 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5729c781-0ede-46c2-97e7-ead050befdc7")
+	)
 	(label "DIR2"
 		(at 102.87 153.67 180)
 		(fields_autoplaced yes)
@@ -10487,6 +11130,17 @@
 			(justify left bottom)
 		)
 		(uuid "79a08174-db14-4f3f-bcca-46136a7b9e81")
+	)
+	(label "cs"
+		(at 177.8 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a35f718-4d1e-452f-a30c-36ae6c46a134")
 	)
 	(label "ENA3"
 		(at 102.87 166.37 180)
@@ -10940,6 +11594,17 @@
 		(uuid "ac4f4f4f-1931-46d1-80d1-1c4aad59c814")
 	)
 	(label "GND"
+		(at 147.32 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acb601bb-fa13-4f54-b415-3960adb071e8")
+	)
+	(label "GND"
 		(at 337.82 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11147,6 +11812,17 @@
 			(justify right bottom)
 		)
 		(uuid "d0b59ce7-0d1d-4b73-9fb7-6ad0e62253d2")
+	)
+	(label "GND"
+		(at 140.97 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d185b461-d9b6-455b-b9c6-85e73a408b11")
 	)
 	(label "+5V"
 		(at 111.76 76.2 0)
@@ -13071,6 +13747,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensors:BMX160_9axis")
+		(at 161.29 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54af832d-9db4-4f46-9c32-80ebb791dcae")
+		(property "Reference" "S1"
+			(at 161.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMX160_9axis"
+			(at 161.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://robu.in/product/dfrobot-fermion-bmx160-9-axis-sensor-breakout/"
+			(at 162.56 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0b4b9547-41d9-42a5-9671-96bf953d8efb")
+		)
+		(pin "6"
+			(uuid "5c9cb360-810c-49fe-9476-194b40232e6e")
+		)
+		(pin "1"
+			(uuid "a116a0af-5b60-417a-b5a4-30c375fdf385")
+		)
+		(pin "7"
+			(uuid "3c5fa0a4-6b8f-47c9-bd82-23a74ed591b2")
+		)
+		(pin "2"
+			(uuid "614d505f-9d83-4e99-9229-4bfffe032707")
+		)
+		(pin "3"
+			(uuid "89a17b66-6bec-4805-94cd-d41ba4dfe51e")
+		)
+		(pin "4"
+			(uuid "1194fdf4-46e1-4b02-bb44-a2c4e6d42d9e")
+		)
+		(instances
+			(project "gigaChad"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 259.08 107.95 270)
 		(unit 1)
@@ -13742,6 +14501,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor_Driver:MD10C_DC_Driver")
+		(at 161.29 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db2396e-f30a-43a0-b1d7-0e69042d5475")
+		(property "Reference" "D6"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD10C_DC_Driver"
+			(at 161.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://robu.in/product/enhanced-13amp-dc-motor-driver-30a-peak-10-seconds/"
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5099f955-ac9e-4402-8ab0-7a9189ce4635")
+		)
+		(pin "1"
+			(uuid "045c14b5-f50c-489b-91b7-7102f39c98e1")
+		)
+		(pin "5"
+			(uuid "44d59eaf-662e-4dd8-8833-bef12fd583f4")
+		)
+		(pin "2"
+			(uuid "b9181973-7338-40be-ae32-d13b61bd195e")
+		)
+		(pin "4"
+			(uuid "c3972e23-a752-4eac-bc90-45438f836f4b")
+		)
+		(pin "7"
+			(uuid "7c089670-1887-4016-8cec-6f1db9aae89d")
+		)
+		(pin "3"
+			(uuid "3f394907-ef97-4436-8217-531901c7b103")
+		)
+		(instances
+			(project "gigaChad"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 250.19 77.47 270)
 		(unit 1)
@@ -14405,6 +15247,74 @@
 			(project "gigaChad"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ControlPCB-rescue:CP1_Small")
+		(at 137.16 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97a778e7-229b-4bbd-9d8f-1e9d59128b0c")
+		(property "Reference" "C9"
+			(at 137.414 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 139.7 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c48eaf-4693-44e8-8b6e-d16ddf46e95e")
+		)
+		(pin "2"
+			(uuid "519197ba-a0c0-423c-8a1c-0cceabbdba28")
+		)
+		(instances
+			(project "gigaChad"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C9")
 					(unit 1)
 				)
 			)
