@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/roverarm/roverarm.egg-info/PKG-INFO
+writing dependency_links to ../../build/roverarm/roverarm.egg-info/dependency_links.txt
+writing requirements to ../../build/roverarm/roverarm.egg-info/requires.txt
+writing top-level names to ../../build/roverarm/roverarm.egg-info/top_level.txt
+reading manifest file '../../build/roverarm/roverarm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/roverarm/roverarm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying roverarm/__init__.py -> /home/pawan/arm_6x/build/roverarm/build/lib/roverarm
+running install
+running install_lib
+running install_data
+copying resource/roverarm -> /home/pawan/arm_6x/install/roverarm/share/ament_index/resource_index/packages
+copying package.xml -> /home/pawan/arm_6x/install/roverarm/share/roverarm
+copying launch/rsp.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+copying launch/launch.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+copying launch/display.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+copying launch/gazebo.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+copying launch/turtle.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+copying urdf/roverarm.urdf -> /home/pawan/arm_6x/install/roverarm/share/roverarm/urdf
+copying rviz/urdf.rviz -> /home/pawan/arm_6x/install/roverarm/share/roverarm/rviz
+copying rviz/pckplc.rviz -> /home/pawan/arm_6x/install/roverarm/share/roverarm/rviz
+copying script/move.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/script
+copying script/transformation.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/script
+running install_egg_info
+removing '/home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/roverarm/roverarm.egg-info to /home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pawan/arm_6x/build/roverarm/install.log'

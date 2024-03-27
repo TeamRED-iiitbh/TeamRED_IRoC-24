@@ -1,0 +1,60 @@
+[0.477s] Invoking command in '/home/pawan/arm_6x/src/roverarm': PYTHONPATH=/home/pawan/arm_6x/build/roverarm/prefix_override:/home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/roverarm build --build-base /home/pawan/arm_6x/build/roverarm/build install --record /home/pawan/arm_6x/build/roverarm/install.log --single-version-externally-managed install_data
+[0.616s] running egg_info
+[0.616s] creating ../../build/roverarm/roverarm.egg-info
+[0.625s] writing ../../build/roverarm/roverarm.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../../build/roverarm/roverarm.egg-info/dependency_links.txt
+[0.625s] writing requirements to ../../build/roverarm/roverarm.egg-info/requires.txt
+[0.625s] writing top-level names to ../../build/roverarm/roverarm.egg-info/top_level.txt
+[0.625s] writing manifest file '../../build/roverarm/roverarm.egg-info/SOURCES.txt'
+[0.644s] reading manifest file '../../build/roverarm/roverarm.egg-info/SOURCES.txt'
+[0.644s] adding license file 'LICENSE'
+[0.645s] writing manifest file '../../build/roverarm/roverarm.egg-info/SOURCES.txt'
+[0.645s] running build
+[0.645s] running build_py
+[0.645s] creating /home/pawan/arm_6x/build/roverarm/build
+[0.645s] creating /home/pawan/arm_6x/build/roverarm/build/lib
+[0.645s] creating /home/pawan/arm_6x/build/roverarm/build/lib/roverarm
+[0.645s] copying roverarm/__init__.py -> /home/pawan/arm_6x/build/roverarm/build/lib/roverarm
+[0.645s] running install
+[0.649s] running install_lib
+[0.657s] creating /home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm
+[0.657s] copying /home/pawan/arm_6x/build/roverarm/build/lib/roverarm/__init__.py -> /home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm
+[0.657s] byte-compiling /home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm/__init__.py to __init__.cpython-310.pyc
+[0.657s] running install_data
+[0.657s] creating /home/pawan/arm_6x/install/roverarm/share/ament_index
+[0.658s] creating /home/pawan/arm_6x/install/roverarm/share/ament_index/resource_index
+[0.658s] creating /home/pawan/arm_6x/install/roverarm/share/ament_index/resource_index/packages
+[0.658s] copying resource/roverarm -> /home/pawan/arm_6x/install/roverarm/share/ament_index/resource_index/packages
+[0.658s] copying package.xml -> /home/pawan/arm_6x/install/roverarm/share/roverarm
+[0.658s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.658s] copying launch/rsp.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.658s] copying launch/gazebo.launch -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.658s] copying launch/launch.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.658s] copying launch/display.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.658s] copying launch/display.launch -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.659s] copying launch/gazebo.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.659s] copying launch/turtle.launch.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/launch
+[0.659s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/urdf
+[0.659s] copying urdf/roverarm.urdf -> /home/pawan/arm_6x/install/roverarm/share/roverarm/urdf
+[0.659s] copying urdf/roverarm.csv -> /home/pawan/arm_6x/install/roverarm/share/roverarm/urdf
+[0.659s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/config
+[0.659s] copying config/joint_names_roverarm.yaml -> /home/pawan/arm_6x/install/roverarm/share/roverarm/config
+[0.660s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.660s] copying meshes/link2.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.660s] copying meshes/link4.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.661s] copying meshes/link1.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.661s] copying meshes/link3.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.662s] copying meshes/ee.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.663s] copying meshes/base_link.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.663s] copying meshes/link5.STL -> /home/pawan/arm_6x/install/roverarm/share/roverarm/meshes
+[0.664s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/rviz
+[0.664s] copying rviz/urdf.rviz -> /home/pawan/arm_6x/install/roverarm/share/roverarm/rviz
+[0.664s] copying rviz/pckplc.rviz -> /home/pawan/arm_6x/install/roverarm/share/roverarm/rviz
+[0.664s] creating /home/pawan/arm_6x/install/roverarm/share/roverarm/script
+[0.664s] copying script/move.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/script
+[0.664s] copying script/transformation.py -> /home/pawan/arm_6x/install/roverarm/share/roverarm/script
+[0.664s] running install_egg_info
+[0.674s] Copying ../../build/roverarm/roverarm.egg-info to /home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages/roverarm-0.0.0-py3.10.egg-info
+[0.674s] running install_scripts
+[0.760s] writing list of installed files to '/home/pawan/arm_6x/build/roverarm/install.log'
+[0.777s] Invoked command in '/home/pawan/arm_6x/src/roverarm' returned '0': PYTHONPATH=/home/pawan/arm_6x/build/roverarm/prefix_override:/home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/roverarm build --build-base /home/pawan/arm_6x/build/roverarm/build install --record /home/pawan/arm_6x/build/roverarm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages",
+        "/home/pawan/rover_arm/install/roverarm/lib/python3.10/site-packages",
+        "/home/pawan/eyantra_ws/install/pymoveit2/local/lib/python3.10/dist-packages",
+        "/home/pawan/eyantra_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages",
+        "/home/pawan/eyantra_ws/install/ebot_docking/local/lib/python3.10/dist-packages",
+        "/home/pawan/sih_ws/install/sih_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pawan/arm_6x/install/roverarm/lib/python3.10/site-packages",
+        "/home/pawan/rover_arm/install/roverarm/lib/python3.10/site-packages",
+        "/home/pawan/eyantra_ws/install/pymoveit2/local/lib/python3.10/dist-packages",
+        "/home/pawan/eyantra_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages",
+        "/home/pawan/eyantra_ws/install/ebot_docking/local/lib/python3.10/dist-packages",
+        "/home/pawan/sih_ws/install/sih_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
