@@ -21,11 +21,10 @@ The Fritzing circuit `electrocal\fritzing` includes various components for proto
 - DC Motor & 2-CH Encoder - Signal Pins
     DCx_PWM, DCx_
 -  TMC2209 MakerBase
-
-    ![TMC 2209](/electrical/images/tmc2209.png)
+    ![TMC 2209](images/tmc2209.png)
 
 - AS5600 Module
-    ![AS5600](/electrical/images/as5600.png)
+    ![AS5600](images/as5600.png)
 
 
 ### Power Board - pdb.kicad_pro
