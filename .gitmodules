@@ -1,8 +1,5 @@
-[submodule "electrical/kicad/gigaboard/lib/custom"]
-	path = electrical/kicad/gigaboard/lib/custom
-	url = https://github.com/Shrijal2410/kicad
-[submodule "electrical/kicad/powerboard/lib/custom"]
-	path = electrical/kicad/powerboard/lib/custom
+[submodule "electrical/kicad/gigaboard/library"]
+	path = electrical/kicad/gigaboard/library
 	url = https://github.com/Shrijal2410/kicad
 [submodule "electrical/kicad/stepboard/library"]
 	path = electrical/kicad/stepboard/library
