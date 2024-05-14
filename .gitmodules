@@ -1,6 +1,9 @@
-[submodule "electrical/kicad/gigaboard/library"]
-	path = electrical/kicad/gigaboard/library
-	url = https://github.com/Shrijal2410/kicad
 [submodule "electrical/kicad/stepboard/library"]
 	path = electrical/kicad/stepboard/library
+	url = https://github.com/Shrijal2410/kicad.git
+[submodule "electrical/kicad/gigaboard/library"]
+	path = electrical/kicad/gigaboard/library
+	url = https://github.com/Shrijal2410/kicad.git
+[submodule "electrical/kicad/powerboard/library"]
+	path = electrical/kicad/powerboard/library
 	url = https://github.com/Shrijal2410/kicad.git
