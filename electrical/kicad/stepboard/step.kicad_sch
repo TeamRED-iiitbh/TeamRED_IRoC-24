@@ -9417,7 +9417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08a108b0-6711-4553-8c61-c077b621bbb5")
-		(property "Reference" "J19"
+		(property "Reference" "J11"
 			(at 148.59 107.95 0)
 			(effects
 				(font
@@ -9480,9 +9480,9 @@
 			(uuid "d41b7e01-8315-445a-81fe-62c08e3c22a6")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J19")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0adcd77b-2391-4df8-afe1-1b5e4753426b")
-		(property "Reference" "J12"
+		(property "Reference" "J8"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -9560,9 +9560,9 @@
 			(uuid "854a6b65-aedb-45ab-a3fc-c4533a83bb48")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J12")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9577,7 +9577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b047c6e-2dcd-41e8-80f4-cfd248dac71b")
-		(property "Reference" "J6"
+		(property "Reference" "J14"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -9636,9 +9636,9 @@
 			(uuid "f3615758-847c-41ad-9512-496b262d643f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J6")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -9722,7 +9722,7 @@
 			(uuid "181c0796-d2ec-4cd2-85a7-ae246688038f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "D1")
 					(unit 1)
@@ -9791,7 +9791,7 @@
 			(uuid "1af56d2c-cfd3-4de2-b400-f283487c43c7")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C2")
 					(unit 1)
@@ -9867,7 +9867,7 @@
 			(uuid "9366e308-d00b-4bc9-8a8f-59a8c0bf79a3")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J21")
 					(unit 1)
@@ -9936,7 +9936,7 @@
 			(uuid "d181ba20-3d52-4635-a357-80849e0f7b82")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C12")
 					(unit 1)
@@ -10005,7 +10005,7 @@
 			(uuid "4557eda9-dcdf-455e-a310-87c98388f100")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C3")
 					(unit 1)
@@ -10022,7 +10022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1816841d-f34f-4536-bc16-5a959c5693fa")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 34.29 72.39 0)
 			(effects
 				(font
@@ -10085,9 +10085,9 @@
 			(uuid "59222944-5913-42b5-9a64-1bfd4a369232")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J9")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10102,7 +10102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b44d711-333a-41b0-afd9-4b48dcf7ae70")
-		(property "Reference" "J17"
+		(property "Reference" "J9"
 			(at 34.29 107.95 0)
 			(effects
 				(font
@@ -10165,9 +10165,9 @@
 			(uuid "04e63ae7-0c29-423e-a2cf-fa2174eb49c6")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J17")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10182,7 +10182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d66ed43-20ad-4c6a-a7f9-a23cba110b55")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 152.4 62.23 90)
 			(effects
 				(font
@@ -10232,9 +10232,9 @@
 			(uuid "75a0f61a-2e9a-4d20-a842-36116e21e910")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "245bc6ad-de8e-499a-aee8-24412d0c6c8d")
-		(property "Reference" "J15"
+		(property "Reference" "J19"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -10308,9 +10308,9 @@
 			(uuid "8f937849-b16e-4197-bf22-dcfb50c5919a")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J15")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -10436,7 +10436,7 @@
 			(uuid "c61c3ad4-552d-42ab-860b-75aac9fd0e3e")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U7")
 					(unit 1)
@@ -10564,7 +10564,7 @@
 			(uuid "1839ac78-b1f6-4e0a-b517-bdef0911d9b2")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U8")
 					(unit 1)
@@ -10640,7 +10640,7 @@
 			(uuid "2d07d7b6-d1e4-4f33-850d-38b0185cafe8")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J22")
 					(unit 1)
@@ -10768,7 +10768,7 @@
 			(uuid "fdb3f051-1ab6-4916-b6eb-3f5aae304918")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U12")
 					(unit 1)
@@ -10896,7 +10896,7 @@
 			(uuid "7e94bfad-faeb-4d9d-b47f-b1dfb14843d2")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U2")
 					(unit 1)
@@ -10976,7 +10976,7 @@
 			(uuid "02b71b4a-1da2-4d4f-ab0a-bfd615575a2c")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J3")
 					(unit 1)
@@ -11104,7 +11104,7 @@
 			(uuid "ae131b6b-0fe0-4d60-8dd9-da32b7089b71")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U6")
 					(unit 1)
@@ -11121,7 +11121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e389df2-34e2-4526-ae74-77c6819b6ac1")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 95.25 95.25 90)
 			(effects
 				(font
@@ -11171,9 +11171,9 @@
 			(uuid "2d298010-643d-4558-812a-f38c29db86d6")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11251,7 +11251,7 @@
 			(uuid "a74e1685-ef9e-40ad-8b73-03250bcf8089")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J1")
 					(unit 1)
@@ -11268,7 +11268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eb3c45b-b80c-4ef9-902a-0260b28944f4")
-		(property "Reference" "J18"
+		(property "Reference" "J10"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -11331,9 +11331,9 @@
 			(uuid "f09c87e8-09c2-4a44-a85a-348b27fc63b1")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J18")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11459,7 +11459,7 @@
 			(uuid "1d9978bf-841c-4170-b67a-7739c99c00d5")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U11")
 					(unit 1)
@@ -11539,7 +11539,7 @@
 			(uuid "92045c0b-5092-44dd-b15e-787a51201b0c")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J4")
 					(unit 1)
@@ -11556,7 +11556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ec9091d-4a87-4ef1-8b64-8a8d0576e924")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 209.55 59.69 90)
 			(effects
 				(font
@@ -11606,9 +11606,9 @@
 			(uuid "b501ea57-0d00-4e0c-81d6-ab06dead885c")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11734,7 +11734,7 @@
 			(uuid "426e0b1b-3628-4660-95f2-89971deb15dc")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U5")
 					(unit 1)
@@ -11807,7 +11807,7 @@
 			(uuid "b62cfaad-aea4-43b8-a919-6c3c0ecdcb51")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J26")
 					(unit 1)
@@ -11935,7 +11935,7 @@
 			(uuid "c456030c-a0eb-4805-9abf-fe2eb3937d50")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U10")
 					(unit 1)
@@ -12063,7 +12063,7 @@
 			(uuid "3c68d979-0bf4-4c3c-bbe8-42574ae1d4e8")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U9")
 					(unit 1)
@@ -12132,7 +12132,7 @@
 			(uuid "5cc25834-cafc-4f3a-992a-f919bb98ef9a")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C8")
 					(unit 1)
@@ -12199,7 +12199,7 @@
 			(uuid "e8008050-5f0b-4144-bbdc-3c98316cc11b")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R2")
 					(unit 1)
@@ -12216,7 +12216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "639827c8-17a3-4cb6-a6af-81521d983148")
-		(property "Reference" "J8"
+		(property "Reference" "J16"
 			(at 243.84 46.99 0)
 			(effects
 				(font
@@ -12275,9 +12275,9 @@
 			(uuid "449a0102-31be-486c-a0a6-be484f5d79f9")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J8")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -12292,7 +12292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6699288d-c11c-4ce1-8c92-a5290fa413cc")
-		(property "Reference" "J14"
+		(property "Reference" "J18"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -12351,9 +12351,9 @@
 			(uuid "f0d22bfd-ff6a-48d0-9402-eb3ec418ec73")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J14")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -12419,7 +12419,7 @@
 			(uuid "5b94ff93-370d-4e17-8da1-d9f09eb3be9f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "H1")
 					(unit 1)
@@ -12486,7 +12486,7 @@
 			(uuid "e3fe52cb-41ee-4aa6-a3f5-2aa2763ba939")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R24")
 					(unit 1)
@@ -12503,7 +12503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a51a5a3-0082-4cf8-90ae-b368c1ce8434")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 38.1 26.67 90)
 			(effects
 				(font
@@ -12553,9 +12553,9 @@
 			(uuid "bea972ad-0095-4c48-808d-4857b7196b44")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12681,7 +12681,7 @@
 			(uuid "f0ed5b1a-0cb2-4a08-a82c-3d9935b628e5")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U3")
 					(unit 1)
@@ -12750,7 +12750,7 @@
 			(uuid "c293c791-5cfb-4596-9752-7a0e2f1f6b12")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C5")
 					(unit 1)
@@ -12767,7 +12767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70ddec6f-6e27-48b0-aab0-cfc96c187dfb")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 38.1 62.23 90)
 			(effects
 				(font
@@ -12817,9 +12817,9 @@
 			(uuid "c91b395b-c0ae-482a-8a4d-bb7830ca5179")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12882,7 +12882,7 @@
 			(uuid "0c4a56d3-df47-4af2-a0cc-98037a8d0563")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "#PWR02")
 					(unit 1)
@@ -12899,7 +12899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79056104-eb82-4482-aab3-9643ae48a6f0")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 152.4 59.69 90)
 			(effects
 				(font
@@ -12949,9 +12949,9 @@
 			(uuid "099ec47d-15d8-4998-944b-3062ae613b65")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13025,7 +13025,7 @@
 			(uuid "c2910f7b-2b8e-46d1-8ca9-c4ca06e687c3")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J23")
 					(unit 1)
@@ -13159,7 +13159,7 @@
 			(uuid "25c538d0-e3af-41a1-852d-33ada3dee6b7")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J25")
 					(unit 1)
@@ -13287,7 +13287,7 @@
 			(uuid "d1b0617e-c0d8-4ede-b6fa-356d17712c44")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U4")
 					(unit 1)
@@ -13356,7 +13356,7 @@
 			(uuid "48dfc28c-2531-4bc8-93d7-2cebc2cd4446")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C6")
 					(unit 1)
@@ -13423,7 +13423,7 @@
 			(uuid "4383f1f1-293b-4cc8-b067-69f481c31244")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R3")
 					(unit 1)
@@ -13491,7 +13491,7 @@
 			(uuid "94966e74-3588-4a72-a777-911de3b2f87e")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "H4")
 					(unit 1)
@@ -13508,7 +13508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98534b23-51d0-469e-a228-ddfb325135d4")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 209.55 26.67 90)
 			(effects
 				(font
@@ -13558,9 +13558,9 @@
 			(uuid "6e73544d-6f2c-4961-9a18-2405b0b5c844")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13627,7 +13627,7 @@
 			(uuid "669aab66-107a-41c2-a8ab-67124e9cd965")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C1")
 					(unit 1)
@@ -13692,7 +13692,7 @@
 			(uuid "2ef852aa-a2b6-48de-98cd-e243d8fd0db2")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "#PWR01")
 					(unit 1)
@@ -13709,7 +13709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0405d06-5a0d-471b-9d72-3ecc245022df")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 95.25 59.69 90)
 			(effects
 				(font
@@ -13759,9 +13759,9 @@
 			(uuid "d9789df5-05c3-4979-a16f-ed3d228a14b4")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13835,7 +13835,7 @@
 			(uuid "a683a7fb-86bd-4cd8-9c08-e572d4038be0")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J24")
 					(unit 1)
@@ -13904,7 +13904,7 @@
 			(uuid "9309af14-eeee-4d27-a2c7-034d31b5cf02")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C7")
 					(unit 1)
@@ -13984,7 +13984,7 @@
 			(uuid "6a7e2f84-74cb-48c5-9a82-a85595595005")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "J2")
 					(unit 1)
@@ -14112,7 +14112,7 @@
 			(uuid "55528c1f-12db-46fb-a398-d6fd713df6c1")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "U1")
 					(unit 1)
@@ -14180,7 +14180,7 @@
 			(uuid "676217f9-c3ce-4cfd-97e4-168e66b5e46f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "F1")
 					(unit 1)
@@ -14197,7 +14197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c38ecd6e-04a3-475f-ba36-68d4a6215b9b")
-		(property "Reference" "J11"
+		(property "Reference" "J7"
 			(at 148.59 72.39 0)
 			(effects
 				(font
@@ -14260,9 +14260,9 @@
 			(uuid "4dfc5cac-5f3c-440e-b647-0b78a040b880")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J11")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14327,7 +14327,7 @@
 			(uuid "e4d664ff-955d-4587-ab3e-a345ba1caab5")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R1")
 					(unit 1)
@@ -14344,7 +14344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5926db0-4287-42e5-9bad-9a9658acebcc")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 95.25 26.67 90)
 			(effects
 				(font
@@ -14394,9 +14394,9 @@
 			(uuid "140a2771-5357-4924-a4b7-c30117e70ce4")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14461,7 +14461,7 @@
 			(uuid "cf29bcc6-343b-4116-835f-0ae425010d86")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R22")
 					(unit 1)
@@ -14530,7 +14530,7 @@
 			(uuid "65b4308b-f3db-4b59-9362-0ba7ff66ada5")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C10")
 					(unit 1)
@@ -14599,7 +14599,7 @@
 			(uuid "4a27bb1e-d966-49b4-a625-4306ae340ed1")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C9")
 					(unit 1)
@@ -14616,7 +14616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdd5246b-be0c-4ab6-9269-fbe19c1d7525")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 38.1 59.69 90)
 			(effects
 				(font
@@ -14666,9 +14666,9 @@
 			(uuid "00bf8c9b-b6f9-4180-ad53-2eccf883d360")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14733,7 +14733,7 @@
 			(uuid "5fb809b2-a3d4-46c8-8cd9-2cab602819b6")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R4")
 					(unit 1)
@@ -14802,7 +14802,7 @@
 			(uuid "cecfcebd-b344-4bdd-9ca5-caa55875b9c6")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C11")
 					(unit 1)
@@ -14819,7 +14819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfbbe5f1-af9e-4da1-ad6a-007eaac4144d")
-		(property "Reference" "J20"
+		(property "Reference" "J12"
 			(at 205.74 107.95 0)
 			(effects
 				(font
@@ -14882,9 +14882,9 @@
 			(uuid "1c98a24c-5751-49a8-b864-57eaa5739b48")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J20")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -14949,7 +14949,7 @@
 			(uuid "061bf15c-d5d0-4d4c-bce3-842afdf00225")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R21")
 					(unit 1)
@@ -15016,7 +15016,7 @@
 			(uuid "70bfe8b1-cdc2-4386-ae42-4aea40b63aab")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "#FLG03")
 					(unit 1)
@@ -15083,7 +15083,7 @@
 			(uuid "ae4b7f8c-407b-4c6f-9ec4-4c54dd0dbeeb")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "R23")
 					(unit 1)
@@ -15100,7 +15100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3174090-0d4e-4b51-9a57-2262e1a742e8")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 209.55 62.23 90)
 			(effects
 				(font
@@ -15150,9 +15150,9 @@
 			(uuid "eeede340-e9cd-4c1a-8f05-05322c5429e1")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15167,7 +15167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e35a78ba-9ec2-4b8b-866b-460a128d7f6b")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 95.25 62.23 90)
 			(effects
 				(font
@@ -15217,9 +15217,9 @@
 			(uuid "a9b51fd0-44f7-4c54-b2b2-70c1b67b506b")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15286,7 +15286,7 @@
 			(uuid "86122a36-9078-4cce-a379-9dc0f122d64f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "C4")
 					(unit 1)
@@ -15352,7 +15352,7 @@
 			(uuid "fa7b5097-97fc-4ec9-aa71-3226bc141a0e")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "#FLG02")
 					(unit 1)
@@ -15420,7 +15420,7 @@
 			(uuid "eee9f1b3-fb9f-40bb-8694-cfa239c193e2")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "H3")
 					(unit 1)
@@ -15437,7 +15437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5e78a3f-2a27-44b3-b77f-aa3b7f3693ec")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 152.4 26.67 90)
 			(effects
 				(font
@@ -15487,9 +15487,9 @@
 			(uuid "38a1d8c4-98cd-4af1-9893-b3039edba28f")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15504,7 +15504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef566640-3fd7-4d4f-b74f-1c5b8dfa7323")
-		(property "Reference" "J7"
+		(property "Reference" "J15"
 			(at 186.69 46.99 0)
 			(effects
 				(font
@@ -15563,9 +15563,9 @@
 			(uuid "b534cca8-fe45-4326-b52e-5235f8050833")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J7")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -15580,7 +15580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f087a61f-4bd4-43ce-96fb-6ae3736a7ef3")
-		(property "Reference" "R20"
+		(property "Reference" "R12"
 			(at 209.55 95.25 90)
 			(effects
 				(font
@@ -15630,9 +15630,9 @@
 			(uuid "1d592525-771a-4173-876e-8663166c0083")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15647,7 +15647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f10fda3f-897f-499d-abc2-bdaa745c7189")
-		(property "Reference" "J10"
+		(property "Reference" "J6"
 			(at 91.44 72.39 0)
 			(effects
 				(font
@@ -15710,9 +15710,9 @@
 			(uuid "8a7d6fde-57d1-4bdc-91be-132f659d17bf")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J10")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -15727,7 +15727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2c3f148-fe95-43db-9ce6-7443240e5b47")
-		(property "Reference" "J16"
+		(property "Reference" "J20"
 			(at 243.84 82.55 0)
 			(effects
 				(font
@@ -15786,9 +15786,9 @@
 			(uuid "3726f4ad-d182-4b3f-be80-4ae3f3d4e7a4")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J16")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -15854,7 +15854,7 @@
 			(uuid "fc9e6526-a88d-4b2e-9b2b-b076de058094")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "H2")
 					(unit 1)
@@ -15871,7 +15871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f52c85c3-ebcf-40d9-952f-764843fac292")
-		(property "Reference" "J5"
+		(property "Reference" "J13"
 			(at 72.39 46.99 0)
 			(effects
 				(font
@@ -15930,9 +15930,9 @@
 			(uuid "8af32ccc-68e4-436c-a3eb-f42b7cf5848c")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -15947,7 +15947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f685c57a-3a26-49b7-b672-1eeb53638236")
-		(property "Reference" "J13"
+		(property "Reference" "J17"
 			(at 72.39 82.55 0)
 			(effects
 				(font
@@ -16006,9 +16006,9 @@
 			(uuid "bb6596dc-7a01-443a-a71a-9e373221939a")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "J13")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b40e97-5efb-4ec1-9495-f900401ac6f3")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 152.4 95.25 90)
 			(effects
 				(font
@@ -16073,9 +16073,9 @@
 			(uuid "e47d2638-f922-47b2-be13-32f60704b3c1")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16090,7 +16090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f92fedca-2d71-4e0d-9ef8-0efc36a0f912")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 38.1 95.25 90)
 			(effects
 				(font
@@ -16140,9 +16140,9 @@
 			(uuid "2a4e5f85-02cc-4c09-b037-6130e2923471")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16207,7 +16207,7 @@
 			(uuid "e3cee831-4688-461e-95b9-f05673649095")
 		)
 		(instances
-			(project "stepboard"
+			(project "step"
 				(path "/68f6e342-0de7-465b-8b2e-b2ada3f1213e"
 					(reference "#FLG01")
 					(unit 1)
