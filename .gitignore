@@ -32,8 +32,8 @@ fp-info-cache
 # Ignore the testproject files
 gigaChad.kicad_prl
 gigaChad-backups
-fp-lib-table
-sym-lib-table
+# fp-lib-table
+# sym-lib-table
 fp-info-cache
 *-cache.lib
 *-rescue.lib
