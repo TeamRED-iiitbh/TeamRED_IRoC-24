@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -117,7 +118,7 @@
         "max_error": 0.04,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.05,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.0,
@@ -144,7 +145,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -155,7 +156,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -166,7 +167,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -182,14 +183,17 @@
         0.5,
         0.75,
         1.25,
+        1.6,
+        1.8,
         2.0,
+        2.4,
         2.5,
         3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
@@ -197,19 +201,19 @@
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.4
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.4
         }
       },
       "via_dimensions": [
@@ -218,8 +222,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6096,
-          "drill": 0.3048
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 2.032,
@@ -432,7 +436,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -476,8 +480,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3048,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -538,8 +542,18 @@
     "net_colors": null,
     "netclass_assignments": {
       "+5V": "5V",
-      "/+5V": "Power",
-      "/GND": "Power",
+      "/+5V": "12V",
+      "/GND": "12V",
+      "/ST1_ENA": "5V",
+      "/ST2_ENA": "5V",
+      "/ST3_ENA": "5V",
+      "/ST4_ENA": "5V",
+      "/ST5_ENA": "5V",
+      "/ST6_ENA": "5V",
+      "/ST7_ENA": "5V",
+      "/ST8_ENA": "5V",
+      "/ST9_ENA": "5V",
+      "/STP_ENA": "5V",
       "GND": "12V"
     },
     "netclass_patterns": [
@@ -565,7 +579,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step.step",
       "svg": "",
       "vrml": ""
     },
@@ -573,6 +587,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -688,6 +703,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
