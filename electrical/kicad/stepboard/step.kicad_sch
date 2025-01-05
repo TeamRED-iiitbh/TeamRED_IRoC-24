@@ -9,7 +9,7 @@
 		(date "2024-09-20")
 		(rev "v2")
 		(company "Team RED")
-		(comment 1 "Designer: Shrijal")
+		(comment 1 "Designer: Shrijal & Vivek")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"

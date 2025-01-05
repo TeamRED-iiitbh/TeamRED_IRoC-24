@@ -12,7 +12,7 @@
 		(date "2024-09-20")
 		(rev "v2")
 		(company "Team RED")
-		(comment 1 "Designer: Shrijal")
+		(comment 1 "Designer: Shrijal & Vivek")
 	)
 	(layers
 		(0 "F.Cu" power)
